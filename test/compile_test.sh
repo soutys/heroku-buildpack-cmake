@@ -6,12 +6,12 @@ testCompile()
 {
   compile
   assertEquals 0 "${RETURN}"
-  assertCaptured "-----> Installing CMake version: 3.8.1"
+  assertCaptured "-----> Installing CMake version: 3.15.5"
   assertCaptured "       Downloading binary distribution"
   assertCaptured "       Verifying download"
   assertCaptured "       Extracting download"
   assertCaptured "       Moving binary"
   assertCaptured "       Exporting PATH"
   assertCaptured "       Testing binary"
-  assertCaptured "cmake version 3.8.1"
+  assertCaptured "cmake version 3.15.5"
 }
