@@ -1,6 +1,6 @@
 # heroku-buildpack-cmake
 
-[![Build Status](https://travis-ci.com/soutys/heroku-buildpack-cmake.svg?branch=master)](https://travis-ci.com/soutys/heroku-buildpack-cmake)
+[![Build Status](https://travis-ci.org/soutys/heroku-buildpack-cmake.svg?branch=master)](https://travis-ci.org/soutys/heroku-buildpack-cmake)
 
 Yet another [Heroku Buildpack][Buildpacks] for [CMake](https://cmake.org/), but this one install CMake from stack's repository.
 
