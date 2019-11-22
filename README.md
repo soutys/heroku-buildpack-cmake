@@ -1,19 +1,12 @@
 # heroku-buildpack-cmake
 
-[![Build Status](https://travis-ci.com/Starkast/heroku-buildpack-cmake.svg?branch=master)](https://travis-ci.com/Starkast/heroku-buildpack-cmake)
+[![Build Status](https://travis-ci.com/soutys/heroku-buildpack-cmake.svg?branch=master)](https://travis-ci.com/soutys/heroku-buildpack-cmake)
 
-Yet another [Heroku Buildpack][Buildpacks] for [CMake](https://cmake.org/), but this one downloads CMake from the official website, [cmake.org](https://cmake.org/download/).
+Yet another [Heroku Buildpack][Buildpacks] for [CMake](https://cmake.org/), but this one install CMake from stack's repository.
 
 Usage:
 
-    heroku buildpacks:set starkast/cmake
-
-    # if you use multiple buildpacks
-    heroku buildpacks:add --index 2 starkast/cmake
-    
-The `starkast/cmake` buildpack from the [Heroku Buildpack Registry](https://devcenter.heroku.com/articles/buildpack-registry) contains the latest stable version of the buildpack. If you'd like to use the source code from this Github repository, you can set your buildpack to the Github URL:
-
-    heroku buildpacks:set https://github.com/Starkast/heroku-buildpack-cmake
+    heroku buildpacks:add --index 0 https://github.com/soutys/heroku-buildpack-cmake
 
 See the Heroku documentation for more information:
 
