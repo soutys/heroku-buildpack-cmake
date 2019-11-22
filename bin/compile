@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # bin/compile BUILD_DIR CACHE_DIR ENV_DIR
 
 set -Eeuxo pipefail
@@ -9,7 +9,8 @@ indent() {
 
 echo "-----> Installing CMake"
 
-echo "Downloading binary distribution" | indent
+echo "Installing cmake package" | indent
+apt-get update
 apt-get install -y cmake
 
 echo "Testing installation" | indent

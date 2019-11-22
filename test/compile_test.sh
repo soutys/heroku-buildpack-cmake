@@ -7,7 +7,7 @@ testCompile()
   compile
   assertEquals 0 "${RETURN}"
   assertCaptured "-----> Installing CMake"
-  assertCaptured "       Downloading binary distribution"
-  assertCaptured "       Testing binary"
+  assertCaptured "       Installing cmake package"
+  assertCaptured "       Testing installation"
   assertCaptured "cmake version"
 }
